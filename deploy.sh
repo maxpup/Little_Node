@@ -4,6 +4,7 @@ WEB_PATH='/home/Little_Node/'$1
 WEB_USER='root'
 WEB_USERGROUP='root'
 
+
 echo "Start deployment"
 cd $WEB_PATH
 echo "pulling source code..."
