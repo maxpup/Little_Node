@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node ./server/bin/www",
     "dev": "DEBUG=little-node:* npm start",
-    "serve": "NODE_ENV=production forever start"
+    "serve": "NODE_ENV=production forever start ./server/bin/www.js "
   },
   "dependencies": {
     "body-parser": "~1.17.1",
